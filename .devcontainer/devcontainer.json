@@ -1,0 +1,15 @@
+{
+    "name": "Market Makers Jupyter",
+    "dockerComposeFile": "../docker-compose.yml",
+    "service": "jupyter",
+    "workspaceFolder": "/home/jovyan/work",
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "ms-python.python",
+                "ms-toolsai.jupyter"
+            ]
+        }
+    },
+    "remoteUser": "jovyan"
+}
