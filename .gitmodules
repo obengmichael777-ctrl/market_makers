@@ -1,0 +1,3 @@
+[submodule "market_simulator"]
+	path = market_simulator
+	url = https://github.com/Quod-Financial/quantreplay.git
