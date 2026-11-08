@@ -8,3 +8,10 @@ services:
       - ./notebooks:/home/jovyan/work
     environment:
       - JUPYTER_TOKEN=marketmaker 
+    networks:
+      - market-simulator-net
+
+networks:
+  market-simulator-net:
+    external: true
+    name: market_simulator_market-simulator-net
